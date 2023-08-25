@@ -1,0 +1,15 @@
+[project]
+name = "OurFirstGame"
+version = "0.0.1"
+description = "Fun side project to learn hw to use pygame"
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+line-length = 88
+target-version = ['py37', 'py38', 'py39', 'py3']
+
+[tool.isort]
+profile = "black"
